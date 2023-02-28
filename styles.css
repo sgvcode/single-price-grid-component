@@ -32,12 +32,9 @@ p {
 
 
 
-h1, h2 {
+h1,
+h2 {
   font-size: 1.3rem;
-}
-
-h3 {
-  font-size: 1.1rem;
 }
 
 li {
@@ -154,6 +151,11 @@ button {
   color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 375px) {
+  .container {
+    margin-top: 50px;
+  }
+}
 
 /* ------------- DESKTOP ------------ */
 
